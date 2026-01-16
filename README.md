@@ -55,3 +55,6 @@ Visualization of entropy graphs
 Machine learning–based detection
 
 Batch image scanning
+## ⚠️ Notice
+This is the official repository maintained by @codeby-rhythm-sharma.
+Any forks are community copies and are not officially maintained.
