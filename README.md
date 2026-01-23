@@ -128,9 +128,11 @@ Understanding detection fundamentals is valuable for cybersecurity students and 
 * Visualization of entropy graphs
 * Machine learning–based detection
 * Batch image scanning
+* 
+⭐ If you find this project useful, please consider giving it a star!
+It helps the project grow and motivates maintenance.
 
-
-## ⚠️ Notice
+## 📜 License
 
 This is the official repository maintained by **@codeby-rhythm-sharma**.
 Forks are community-maintained and not officially supported.
