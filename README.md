@@ -115,6 +115,8 @@ All contribution tasks are listed under the **Issues** tab.
 Image steganography can be used to hide malicious data inside images, making detection difficult.
 This project helps beginners understand how basic statistical and heuristic techniques can be used to flag suspicious images.
 
+## Testing
+python -m unittest discover tests
 
 ## 🌍 Why This Project Matters
 
