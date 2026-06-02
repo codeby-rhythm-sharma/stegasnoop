@@ -1,6 +1,6 @@
 <div align="center">
 
-# StegaSnoop
+# StegaSnoop 🔍
 
 ### Lightweight Steganalysis Framework for Hidden Data Detection & Digital Forensics
 
