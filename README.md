@@ -1,17 +1,17 @@
 <div align="center">
 
-# StegaSnoop 🕵️‍♂️
+# StegaSnoop
 
-### Lightweight Image Steganalysis Framework for Hidden Data Detection
+### Lightweight Steganalysis Framework for Hidden Data Detection & Digital Forensics
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=2600&color=C8A27C&center=true&vCenter=true&width=950&lines=Digital+Forensics+and+Steganalysis;Hidden+Data+Detection+Workflows;Statistical+Image+Analysis;Cybersecurity+Research+Tooling;Open+Source+Maintained+Project" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=2600&color=9B59B6&center=true&vCenter=true&width=950&lines=Digital+Forensics+and+Steganalysis;Hidden+Data+Detection+Workflows;Statistical+Image+Analysis;Cybersecurity+Research+Tooling;Open+Source+Maintained+Project" />
 
 <br>
 
-<img src="https://img.shields.io/badge/Steganalysis-Hidden%20Data%20Detection-C8A27C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Digital-Forensics-black?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Image-Security%20Analysis-C8A27C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Open%20Source-Project%20Maintainer-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Steganalysis-Hidden%20Data%20Detection-9B59B6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Digital-Forensics-1F2937?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Image-Security%20Analysis-9B59B6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Open%20Source-Project%20Maintainer-1F2937?style=for-the-badge"/>
 
 </div>
 
@@ -21,9 +21,9 @@
 
 StegaSnoop is a lightweight image steganalysis framework designed to identify suspicious patterns that may indicate the presence of hidden information within digital images.
 
-The project applies multiple statistical and heuristic analysis techniques commonly associated with introductory steganography detection workflows, enabling users to inspect images for anomalies related to hidden payloads, manipulated pixel structures, and suspicious encoding behavior.
+The framework applies multiple statistical and heuristic analysis techniques commonly used in introductory steganographic investigations, enabling users to inspect image structures for anomalies associated with concealed payloads, manipulated pixel distributions, and suspicious encoding behavior.
 
-Built as an educational cybersecurity and digital forensics project, StegaSnoop demonstrates how lightweight analytical techniques can be combined to perform preliminary steganographic analysis without requiring specialized forensic software.
+Built as a cybersecurity and digital forensics project, StegaSnoop demonstrates how lightweight analytical techniques can be combined to perform preliminary steganographic analysis without relying on specialized forensic platforms.
 
 ---
 
@@ -77,38 +77,38 @@ The framework combines multiple lightweight detection mechanisms to identify ima
 ### Least Significant Bit (LSB) Analysis
 
 * Examines least significant bit distributions within image data
-* Identifies unusual bit-level modifications commonly associated with hidden payload insertion
-* Highlights suspicious alterations that may indicate steganographic activity
+* Identifies abnormal bit-level modifications associated with hidden payload insertion
+* Highlights suspicious alterations commonly observed in steganographic techniques
 
-### Shannon Entropy Analysis
+### Shannon Entropy Evaluation
 
-* Measures information randomness within image structures
-* Detects abnormal entropy levels that can emerge from embedded data
-* Supports statistical identification of manipulated image content
+* Measures randomness and information distribution within image structures
+* Detects unusual entropy patterns that may indicate embedded content
+* Supports statistical identification of manipulated image data
 
 ### Pixel Correlation Analysis
 
-* Evaluates relationships between neighboring pixels
+* Evaluates relationships between adjacent pixels
 * Identifies disruptions in natural image correlation patterns
-* Helps reveal potential hidden-information embedding artifacts
+* Assists in revealing hidden-information embedding artifacts
 
-### Multi-Heuristic Evaluation
+### Multi-Heuristic Detection Framework
 
-* Combines multiple analytical techniques into a single detection workflow
-* Reduces reliance on any single indicator
-* Provides a broader perspective during preliminary forensic analysis
+* Combines multiple analytical techniques into a unified workflow
+* Reduces dependency on a single detection indicator
+* Improves visibility into potentially suspicious image behavior
 
 ---
 
-## Example Analysis Workflow
+## Example Analysis
 
-### Input
+### Execute Scan
 
 ```bash
 python stegasnoop.py image.png
 ```
 
-### Detection Process
+### Sample Output
 
 ```text
 [+] Loading image
@@ -119,7 +119,7 @@ python stegasnoop.py image.png
 [+] Analysis completed
 ```
 
-Results vary depending on image characteristics and the steganographic techniques used.
+Analysis results vary depending on image characteristics and the steganographic methods used.
 
 ---
 
@@ -127,23 +127,23 @@ Results vary depending on image characteristics and the steganographic technique
 
 ### Digital Forensics
 
-Assist in identifying potentially manipulated images during investigative workflows.
+Assist in identifying potentially manipulated images during investigative and forensic workflows.
 
-### Malware Analysis
+### Malware Investigation
 
-Support examination of images that may be used to conceal malicious payloads or encoded information.
+Support examination of images that may conceal encoded payloads, commands, or hidden information.
 
 ### Cybersecurity Education
 
-Provide hands-on exposure to foundational steganalysis and image-forensics concepts.
+Provide hands-on exposure to steganalysis, statistical image analysis, and digital-forensics fundamentals.
 
 ### Security Research
 
-Enable experimentation with lightweight detection methodologies and anomaly-identification techniques.
+Enable experimentation with lightweight hidden-data detection methodologies and image-analysis techniques.
 
 ---
 
-## What StegaSnoop Does Not Attempt
+## Limitations
 
 StegaSnoop is intentionally designed as a lightweight educational framework.
 
@@ -154,7 +154,7 @@ The project:
 * Does not replace professional forensic platforms
 * Should not be used as the sole source of investigative evidence
 
-Instead, it serves as an introductory steganalysis and digital-forensics learning tool.
+Instead, it serves as an educational steganalysis and digital-forensics learning environment.
 
 ---
 
@@ -209,12 +209,12 @@ Project maintenance responsibilities included:
 
 * Reviewing and merging community pull requests
 * Improving contributor onboarding and documentation
-* Maintaining project structure and repository quality
+* Managing contributor workflows and repository organization
 * Supporting beginner contributors during open-source programs
-* Managing issues and contribution workflows
-* Enhancing educational resources and project usability
+* Maintaining project quality and consistency
+* Enhancing examples, contribution guides, and educational resources
 
-The project served as both a practical digital-forensics tool and a collaborative open-source learning environment.
+The project served as both a practical steganalysis tool and a collaborative learning environment for open-source contributors.
 
 ---
 
@@ -250,12 +250,12 @@ Licensed under the MIT License.
 
 <div align="center">
 
-### Digital Forensics • Steganalysis • Open Source Collaboration
+### Digital Forensics • Steganalysis • Security Research
 
 <br>
 
 <a href="https://github.com/codeby-rhythm-sharma">
-<img src="https://img.shields.io/badge/More%20Security%20Projects-C8A27C?style=for-the-badge&logo=github&logoColor=black"/>
+<img src="https://img.shields.io/badge/Explore%20More%20Security%20Projects-9B59B6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </div>
